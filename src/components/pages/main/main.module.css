@@ -1,0 +1,10 @@
+.main {
+  height: 82vh;
+  background-color: #d4d4d4;
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}

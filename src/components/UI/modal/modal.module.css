@@ -1,0 +1,45 @@
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  animation-name: close;
+  animation-duration: 0.5s;
+}
+
+.modal__content {
+  padding: 25px;
+  background-color: white;
+  border-radius: 20px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.modal__content li {
+  list-style: none;
+}
+
+.modal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: open;
+  animation-duration: 0.5s;
+}
+
+@keyframes open {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes close {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+

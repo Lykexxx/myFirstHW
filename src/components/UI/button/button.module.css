@@ -1,0 +1,48 @@
+.button {
+  outline: none;
+  border: none;
+  outline: 1px solid #6bd3ff;
+  background-color: #34b2e7;
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(230, 225, 216);
+}
+
+.button:hover {
+  background-color: #6bd3ff;
+  color: #333;
+
+}
+
+.list__item {
+  position: relative;
+}
+
+.list__item:hover {
+  color: #247597;
+}
+
+.list__item::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  width: 0;
+  height: 1px;
+  background-color: #fffffa; 
+  transition: width 0.3s; 
+}
+
+.list__item:hover::after {
+  content: '';
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 1px; 
+  background-color: #ffffff;
+}
