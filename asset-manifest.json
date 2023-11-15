@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/myFirstHW/static/css/main.5d5f6823.css",
+    "main.js": "/myFirstHW/static/js/main.fe53fe11.js",
+    "index.html": "/myFirstHW/index.html",
+    "main.5d5f6823.css.map": "/myFirstHW/static/css/main.5d5f6823.css.map",
+    "main.fe53fe11.js.map": "/myFirstHW/static/js/main.fe53fe11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d5f6823.css",
+    "static/js/main.fe53fe11.js"
+  ]
+}
